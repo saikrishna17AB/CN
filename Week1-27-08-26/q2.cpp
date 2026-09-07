@@ -45,8 +45,11 @@ string bytedestuffing2(string inp){
 
 int main(){
 
-	string i="FABCDEFFEDFF";
-	cout<<i;
+	// string i="FABCDEFFEDFF";
+	
+	cout<<"Enter string";
+	string i;
+	cin>>i;
 	cout<<"\n";
 	string o=bytestuffing2(i);
 	cout<<o;

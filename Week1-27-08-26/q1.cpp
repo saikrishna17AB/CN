@@ -78,8 +78,11 @@ string bytedestuffing2(string inp){
 
 
 int main(){
-	string input="0110101111111011010";
-	cout<<input;
+	// string input="0110101111111011010";
+	string input;
+	cout<<"Enter input: ";
+	cin>>input;
+	// cout<<input;
 	cout<<"\n";
 	string o=bitstuffing(input);
 	cout<<o;
